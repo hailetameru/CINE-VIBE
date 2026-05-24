@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Immersive UI Color Tokens */
+  --color-gold-glow: #e2b755;
+  --color-theater-card: rgba(10, 10, 12, 0.6);
+  --color-theater-bg: #050505;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Base resets */
+body {
+  background-color: #050505;
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+}
+
+/* Immersive Neon Text/Ambient Glows */
+.text-glow-gold {
+  text-shadow: 0 0 12px rgba(226, 183, 85, 0.35);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.4);
+}
+
+.text-glow-rose {
+  text-shadow: 0 0 12px rgba(244, 63, 94, 0.4);
+}
+
+.text-glow-indigo {
+  text-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+}
+
+.text-glow-orange {
+  text-shadow: 0 0 12px rgba(249, 115, 22, 0.4);
+}
+
+.text-glow-emerald {
+  text-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Movie Recommendation App",
+  "description": "A movie recommendation app that suggests films based on personal watch history and preferences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
